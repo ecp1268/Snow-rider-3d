@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Clever | Portal</title>
+  <link rel="icon" type="image/x-icon" href="https://support.highlandschools.org/wp-content/uploads/2020/11/clever1.png">
+  <style>
+    .c-button {
+      min-width: 100%;
+      font-family: inherit;
+      appearance: none;
+      border: 0;
+      border-radius: 5px;
+      background: #4682B4;
+      color: #fff;
+      padding: 0px 46px;
+      font-size: 24px;
+      cursor: pointer;
+      margin-bottom: 10px; /* Added margin to separate buttons */
+    }
+
+    .c-button:hover {
+      background: #B0C4DE;
+    }
+
+    .c-button:focus {
+      outline: none;
+      box-shadow: 0 0 0 4px #cbd6ee;
+    }
+
+    .c-button {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100%;
+    }
+  </style>
+</head>
+<body>
+  <button class="c-button" onclick="openLink('https://sd592g.github.io/zj684od4lfg/')">Minecraft</button>
+  <button class="c-button" onclick="openLink('https://win11.blueedge.me/')">Computer</button>
+  <button class="c-button" onclick="openLink('https://1v1.lol/')">LvL.Lol</button>
+  <button class="c-button" onclick="openLink('https://play2048.co/')">2048</button>
+    <button class="c-button" onclick="openLink('https://lekug.github.io/tn6pS9dCf37xAhkJv/')">Run 3</button>
+        <button class="c-button" onclick="openLink('https://watchdocumentaries.com/wp-content/uploads/games/snow-rider-3d/')">Snow rider</button>
+
+  <script>
+    function openLink(link) {
+      var win = window.open('about:blank', '_blank');
+      win.document.write('<iframe src="' + link + '" style="border: none; width: 100%; height: 100%;"></iframe>');
+    }
+  </script>
+</body>
+</html>
